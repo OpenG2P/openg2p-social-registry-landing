@@ -42,11 +42,22 @@
         .black-title-image {
             position: absolute; 
             left: 550px; 
-            top: 50px;  
+            top: 40px;  
             width: 180px;
             height: auto;
              
         }
+       .black-version {
+            position: absolute; 
+            left: 555px; 
+            top: 160px;  
+            max-width: 483px;
+            font-family: 'Montserrat'; 
+            font-weight: 'Regular';
+            font-size: 16px;
+            color: #8C8989;
+        }
+
        .link-square {
             position: absolute; 
             border-radius: 20px;
@@ -86,6 +97,7 @@
         </div>
         <div class="black-background">
             <img class="black-title-image" src="https://openg2p.github.io/project/design-assets/social-registry-logo-for-dark-bg.png"></img>
+            <div class="black-version">Package version: ${VERSION}<br>App version: ${APP_VERSION}</div>
 	    <a href="${SR_ADMIN_URL}" target="_blank">
                 <div class="link-square">
                     <div class="icon"><img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img></div>
